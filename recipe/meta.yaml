@@ -1,5 +1,6 @@
 {% set name = "deferrer" %}
 {% set version = "1.1.0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +21,7 @@ requirements:
     - setuptools
     - pip
   run:
-    - python >=3.11 <3.15
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -28,7 +29,7 @@ test:
   commands:
     - pip check
   requires:
-    - python >=3.11 <3.15
+    - python >={{ python_min }}
     - pip
 
 about:
