@@ -1,5 +1,5 @@
 {% set name = "deferrer" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/deferrer-{{ version }}.tar.gz
-  sha256: 5dc87882b6bdaac1eb1ae39155f62f4a47a168f3fd8c460c96bcc3347c2f38ab
+  sha256: a5cddd77724f79f271bd22d47466274093a0ec8c0b440424d2d749c36ad323b2
 
 build:
   noarch: python
