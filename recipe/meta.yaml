@@ -1,5 +1,5 @@
 {% set name = "deferrer" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set python_min = "3.11" %}
 
 package:
