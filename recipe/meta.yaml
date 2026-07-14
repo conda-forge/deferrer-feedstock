@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/deferrer-{{ version }}.tar.gz
-  sha256: 3d0bac048c9ccee6e3e9b82bc18dec6337d004a9e32cbdd0c4fb68b23d1d5d0a
+  sha256: a5cddd77724f79f271bd22d47466274093a0ec8c0b440424d2d749c36ad323b2
 
 build:
   noarch: python
